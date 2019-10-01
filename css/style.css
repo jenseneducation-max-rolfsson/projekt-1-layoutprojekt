@@ -1,0 +1,407 @@
+.container-family {
+    display: grid;
+    max-width: 1000px;
+    height: 500px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3 0.5fr);
+    grid-template-areas: "left topright"
+    "left bottomright"
+    "footer footer";
+
+    
+
+
+}
+
+.box-left {
+    background: lightblue;
+    grid-area: left;
+    padding: 10% 5% 0 10%;
+    background-image: url(../images/family.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom;
+    
+
+}
+
+.box-top-right {
+    background: darkorange;
+    grid-area: topright;
+    text-align: center;
+    padding: 15% 10% 10% 10%;
+
+}
+
+.box-bottom-right {
+    background: rgb(245, 245, 7);
+    grid-area: bottomright;
+    text-align: center;
+    padding: 15% 10% 10% 10%;
+
+
+}
+
+a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.box-footer {
+    display: Flex;
+    background: white;
+    grid-area: footer;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+/*     max-width: 70%;
+    transform: translate(140px); */
+}
+
+.second-container {
+    margin-top: 12px;
+    display: grid;
+    max-width: 1000px;
+    height: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas: "leftgrey rightgrey"
+    "bottomorange bottomorange";
+
+}
+
+.graycontainer {
+    background: gray;
+    grid-area: leftgrey;
+    padding: 70px 150px 0px 75px;
+}
+
+.graycontainer2 {
+    background: gray;
+    grid-area: rightgrey;
+    padding: 70px 175px 0px 75px;
+    
+}
+
+.orangecontainer {
+    background: orange;
+    grid-area: bottomorange;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 250px 0 250px;
+}
+
+.thirdcontainer {
+    display: grid;
+    max-width: 1000px;
+    height: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas: "topleft topmiddle topright"
+    "bottomleft bottommiddle bottomright";
+
+}
+
+.box0 {
+    background: lightblue;
+    grid-area: topleft;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box0 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box0 h3 {
+    padding: 0 0 80px 7px;
+}
+
+.box1 {
+    background: white;
+    grid-area: topmiddle;
+}
+
+.box1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 h3 {
+    padding: 0 0 80px 7px;
+}
+
+
+
+.box2 {
+    background: lightgray;
+    grid-area: topright;
+}
+
+.box2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 h3 {
+    padding: 0 0 80px 7px;
+}
+
+
+.box3 {
+    background: white;
+    grid-area: bottomleft;
+
+}
+
+.box3 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 h3 {
+    padding: 0 0 80px 7px;
+}
+
+.box4 {
+    background: lightsalmon;
+    grid-area: bottommiddle;   
+}
+
+.box4 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 h3 {
+    padding: 0 0 80px 7px;
+}
+
+.box5 {
+    background: white;
+    grid-area: bottomright;
+
+}
+
+.box5 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box5 h3 {
+    padding: 0 0 80px 7px;
+}
+
+.fourthcontainer {
+    background: grey;
+    display: grid;
+    height: 75px;
+    max-width: 1000px;
+    grid-template-columns: repeat(1 1fr);
+    grid-template-rows: repeat(1 1fr);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trippelcontainer {
+    display: flex;
+    height: 250px;
+    width: 1000px;
+    position: absolute;
+    top: 950px;
+    justify-content: space-around;
+
+    
+}
+
+.children {
+    background: white;
+    height: 250px;
+    width: 200px;
+    border-radius: 5%
+    
+    
+
+
+
+}
+
+.imgbox1 {
+    display: flex;
+    background: lightblue;
+    width: 180px;
+    height: 120px;
+    position: relative;
+    left: 10px;
+    top: -20px;
+    border-radius: 5%;
+    
+
+}
+
+.img1 {
+    height: 95px;
+    width: 120px;
+    background-image: url(../images/child.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    position: relative;
+    left: 60px;
+    top: 25px;
+
+}
+
+.justright {
+    background: white;
+    height: 250px;
+    width: 200px;
+    border-radius: 5%
+
+}
+
+.imgbox2 {
+    display: flex;
+    background: orange;
+    width: 180px;
+    height: 120px;
+    position: relative;
+    left: 10px;
+    top: -20px;
+    border-radius: 5%;
+
+}
+
+.img2 {
+    height: 95px;
+    width: 120px;
+    background-image: url(../images/adult.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    position: relative;
+    left: 60px;
+    top: 25px;
+
+}
+
+.oldfart {
+    background: white;
+    height: 250px;
+    width: 200px;
+    border-radius: 5%
+
+}
+
+.imgbox3 {
+    display: flex;
+    background: rgb(255, 91, 41);
+    width: 180px;
+    height: 120px;
+    position: relative;
+    left: 10px;
+    top: -20px;
+    border-radius: 5%;
+
+
+}
+
+.img3 {
+    height: 95px;
+    width: 120px;
+    background-image: url(../images/old.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    position: relative;
+    left: 50px;
+    top: 25px;
+
+}
+.textcontainer {
+display: flex;
+height: 130px;
+width: 1000px;
+position: absolute;
+top: 1060px;
+justify-content: space-around;
+}
+
+.text1 {
+    height: 130px;
+    width: 180px;
+    text-align: center;
+}
+
+.text2 {
+    height: 130px;
+    width: 180px;
+    text-align: center;
+}
+
+.text3 {
+    height: 130px;
+    width: 180px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+
+}
+
+h2 {
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+h3 {
+    font-size:24px;
+    color: gray;
+}
+
+h4 {
+    position: relative;
+    top: 10px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(39, 38, 38);
+
+}
+
+button {
+    color: black;;
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 1.5rem;
+    font-family: 'Manjari', sans-serif;
+}
